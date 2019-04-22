@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.striped-top {
+background-image: linear-gradient(171deg, #8b4cd9 6.47%, #784de3 6.47%, #784de3 30.60%, #816ce6 30.60%, #816ce6 39.22%, #fff 39.22%, #fff 50%, #8b4cd9 50%, #8b4cd9 56.47%, #784de3 56.47%, #784de3 80.60%, #816ce6 80.60%, #816ce6 89.22%, #fff 89.22%, #fff 100%);
+  background-size: 100% 229%;
+}
+
+.striped-bottom {
+background-image: linear-gradient(171deg, #ffffff 17.86%, #e2e8f0 17.86%, #e2e8f0 50%, #ffffff 50%, #ffffff 67.86%, #e2e8f0 67.86%, #e2e8f0 100%);
+  background-size: 100% 360%;
+}
+
+
+.flex-container {
+    padding-top: 20px;
+    padding-right:10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#login {
+  padding-left: 40px;
+}
+
+#support-text {
+  border: 1px solid #94f7c9;
+  background-color: #94f7c9;
+  border-radius: 3px;
+  padding: 4px 20px 4px 20px;
+  border-style: outset;
+}
+
+#my-web-now {
+  margin-right: auto;
+  padding-left: 100px
+}
+
+.navbar {
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 100%;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+#main-header {
+  text-align: center;
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 150%;
+}
+
+#or-less {
+  color: #94f7c9;
+}
+
+#search-input {
+  border-radius: 5px;
+  width:27%;
+  height: 50px;
+  font-size: 70%;
+  padding-left: 20px;
+  font-family: 'Montserrat';
+}
+
+#search-button {
+  background-color: #94f7c9;
+  font-family: 'Montserrat';
+  border-radius: 7px;
+   border: none;
+   color: white;
+   font-size: 70%;
+  padding: 20px 30px 20px 30px ;
+}
+
+.learn {
+  font-family: 'Montserrat';
+   color: white;
+   font-size: 100%;
+   text-align: center;
+  vertical-align:middle;
+}
+
+
+#arrow {
+  display: inline-block;
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+   font-size: 50px;
+    font-family: 'Courier';
+    color: white;
+    text-align: center;
+    background-color: #94f7c9;
+    height:70px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:70px;
+    line-height: 60px;
+}
+
+#arrow:hover, button:hover, #contact-button:hover, #search-button:hover{
+  background-color: blue;
+}
+
+a:hover {
+  color: black;
+}
+
+#center-pgh {
+  color:gray;
+  font-family: 'Montserrat';
+  font-size: 100%;
+  text-align: center;
+}
+
+.center-text {
+  margin: auto;
+  width: 50%;
+}
+
+.create-account {
+  text-align: center;
+  margin: auto;
+    width: 30%;
+    display: inherit;
+    background-color: #816ce6;
+    font-family: 'Montserrat';
+    border-radius: 9px;
+     border: none;
+     color: white;
+     font-size: 70%;
+    padding: 8px 17px;
+}
+
+.our-services {
+  color:gray;
+  font-family: 'Montserrat';
+  font-size: 120%;
+  text-align: center;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  width: 5%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-color: black;
+}
+
+.services-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  margin:auto;
+  width: 75%;
+}
+.grid-item {
+  border: 1.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px 20px 20px 0px;
+  font-size: 30px;
+  overflow: hidden;
+  background-color: #eff2f7;
+  font-size: 70%;
+  font-family: 'Montserrat';
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 7px;
+  float:left;
+  margin-left: -6px;
+
+}
+
+.title {
+  display: inline;
+}
+
+.acct {
+  text-align: left;
+  margin: auto;
+  display:grid;
+  grid-template-columns: auto auto;
+  font-family: 'Montserrat';
+  font-size: 120%;
+  width: 75%;
+}
+
+#ready {
+  color: #816ce6;
+  vertical-align: middle;
+}
+
+#create{
+  color: #784de3;
+  vertical-align: middle;
+}
+
+#create-acct{
+  width: 100%;
+  margin: 0;
+}
+
+#contact {
+  width: 100%;
+}
+
+ .b {
+  margin: 50px 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #816ce6;
+  font-family: 'Montserrat';
+  border-radius: 7px;
+   border: none;
+   color: white;
+   font-size: 60%;
+   padding: 10px 10px;
+}
+
+#contact-button{
+  background-color: white;
+  color: #784de3;
+  width: 40%;
+}
+
+#acct-button{
+  width: 50%;
+}
+
+#right-column {
+  display: flex;
+  justify-content: center;
+}
+
+#left-column {
+  margin:auto auto auto 10px;
+}
+
+#footer {
+  background-color: #816ce6;
+}
+
+.footer-box-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  margin:20px 50px;
+
+}
+
+.footer div {
+  padding: 5px 0;
+  font-family: 'Montserrat';
+  color:white;
+  font-size: 90%;
+}
+
+.footer .header {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#phone {
+  height: 10px;
+  width: 10px;
+  display: inline;
+  color: white;
+  margin-top: 0;
+}
+
+#email {
+  height: 10px;
+  width: 12px;
+  display: inline;
+  background-color: white;
+  border: none;
+}
+
+#location {
+  height: 15px;
+  width: 15px;
+  display: inline;
+  background-color: white;
+  border: none;
+
+}
+
+.footer.first-column {
+   vertical-align: top;
+  margin-right: 0px;
+  margin-top: 2px;
+
+}
+
+.footer.a-column {
+  margin-left:5px;
+}
+
+.f-icon{
+  height:20px;
+  width:20px;
+
+}
+
+.f-icons{
+  margin-top: 12px;
+}
+
+.dropdown-content, .dropbtn {
+  display:none;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .flex-item {display: none}
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  float: right;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  float: right;
+  background-color: #8b4cd9;
+
+}
+.dropdown:hover .dropdown-content a {
+  float: none;
+  text-decoration: none;
+  color: white;
+  font-family: 'Arial';
+  display:block;
+  text-align: center;
+  }
+
+.second-column, .third-column, .fourth-column, .fifth-column {
+  display: none;
+}
+
+
+
+}
